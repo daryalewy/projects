@@ -10,6 +10,7 @@ html {
 
 .main {
     min-height: 800px;
+    min-width: 1920px;
     background: url(../images/bg/bg1.png) center center/cover no-repeat;
     padding-top: 39px;
     padding-bottom: 62px;
@@ -66,7 +67,6 @@ h3.title {
 .main .title_descr {
     margin-top: 23px;
     color: #ffffff;
-    font-family: Roboto;
     font-size: 21px;
     font-weight: 300;
     line-height: 28px;
@@ -122,6 +122,7 @@ h3.title {
 
 .wait {
     min-height: 604px;
+    min-width: 1920px;
     background-color: #efefef;
     padding-top: 85px;
     padding-bottom: 75px;
@@ -182,18 +183,19 @@ h3.title {
 
 .optimization {
     min-height: 550px;
+    min-width: 1920px;
     padding-top: 102px;
     padding-bottom: 107px;     
 }
 
-.optimization .opt_img {
+ .optimization .opt_img {
     width: 868px;
     height: 502px;
     position: absolute;
     left: -240px;
     top: 34px;
     z-index: -1;
-}
+} 
 
 .optimization .opt_title {
     color: #299cbd;
@@ -219,6 +221,7 @@ h3.title {
 
 .after {
     min-height: 447px;
+    min-width: 1920px;
     background: url(../images/bg/bg2.png) center center/cover no-repeat;
     padding-top: 86px;
     padding-bottom: 79px;
@@ -264,6 +267,7 @@ h3.title {
 
 .gift {
     min-height: 628px;
+    min-width: 1920px;
     background-color: #efefef;
     padding-top: 86px;
     padding-bottom: 87px;
@@ -287,6 +291,7 @@ h3.title {
 }
 
 .first {
+    min-width: 1920px;
     min-height: 515px;
     padding-top: 82px;
     padding-bottom: 64px;
@@ -323,6 +328,7 @@ h3.title {
 }
 
 .footer {
+    min-width: 1920px;
     min-height: 166px;
     background-color: #1a1a1a;
     padding-top: 61px;
